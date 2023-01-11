@@ -141,6 +141,10 @@ footer h4{
      
 }
 
+li a:visited{
+    color: purple;
+}
+
 
 
 
