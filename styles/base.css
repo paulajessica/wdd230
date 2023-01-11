@@ -12,7 +12,7 @@ body {
 }
 div h1{
     text-align: center;
-    margin: auto 0;    
+    margin: auto 0;      
       
 }
 div img {
@@ -29,10 +29,13 @@ nav {
     gap: 3rem;
     padding: 1rem;
     font-size: 1.2em;
+    color:white;
+
 }
 nav a {
     color: #ffffff;
-}
+}  
+
 svg {
     fill: #ffffff;
     width: 25px;
@@ -43,6 +46,7 @@ main h2 {
     text-decoration-line: underline;
     grid-column: 1/2;
     grid-row: 1/2;
+    
 }
 
 main {
@@ -94,7 +98,7 @@ li {
     margin-top: 1rem;
 }
 
-section ul a{  
+section ul li{  
   text-decoration: none;
   color: #333;
   
@@ -111,9 +115,16 @@ footer div{
     align-items: center;
     justify-content: center;    
     padding: 1rem;
-    font-size: 1em;
-    color: white;
+    color: #ffffff; 
      
+}
+
+footer div h2 {
+    font-size: 14px;
+}
+
+footer div h3 {
+    font-size: 14px;
 }
 
 footer h4{
@@ -123,8 +134,9 @@ footer h4{
     align-items: center;
     justify-content: center;   
     padding: 1rem;
-    font-size: 1em;
+    font-size: 12px;
     color: white;
+    margin: 0;
     
      
 }
