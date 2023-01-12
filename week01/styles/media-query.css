@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+header {
+    width: 640px;
+    margin: 1rem auto;
+    padding: 15px;
+    background-color: black;
+    color: white;
+}
+
+main{
+    background-color: lightblue;    
+    width: 640px;
+    margin: 1rem auto;    
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;    
+    padding: 15px;
+    color: black;
+      
+    
+}
+main section{
+    background-color: white;
+    padding: 15px;
+}
+footer {
+    width: 640px;
+    margin: 1rem auto;
+    background-color: lightblue;
+    padding: 15px;
+    
+}
