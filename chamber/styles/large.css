@@ -56,8 +56,7 @@
         grid-template-columns: 1fr 1fr 1fr;
         max-width: 1140px;
         margin: 0 auto;
-        gap: 1rem;
-        margin-left: 1rem;        
+        gap: 1rem;              
         padding-bottom: 15px;        
     }
 
