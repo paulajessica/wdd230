@@ -29,7 +29,6 @@ body {
     
 }
 
-
 .navigation { 
     display: flex;
     flex-direction: row-reverse;    
@@ -59,7 +58,7 @@ nav li :hover {
     
 }
 
-header {
+nav {
     background-color: #042940;
 
 }
@@ -110,10 +109,11 @@ nav ul li {
 
 main {
     font-size: 16px;       
-    margin: 0rem auto;
-    display: grid;
-    gap: 1rem;
-    margin-left: 20px;       
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;    
+    margin-left: 20px;
+    margin-right: 20px;       
     margin-bottom: 15px; 
     
 }
