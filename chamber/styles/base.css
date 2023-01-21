@@ -129,34 +129,44 @@ main img {
     grid-row: 1/2;
 }
 
-.event {
-    grid-row: 2/3;
-}
-
 section {
     padding: 10px;
-    border: 3px solid;    
+    border: 1px solid;    
     border-color: #D6D58E;
     background-color: #e6e5b2;
-    color: #042940;
-    
-    
+        
     
 }
 section ul li {
-    margin: 15px;
+    margin: 5px;
+    list-style-type: none;
 
+}
+
+section ul {
+    padding-left: 5px;
+    margin-top: 0;
 }
 
 h1 {
     padding: 5px;
-    border-bottom:  1px solid;
+    border-bottom: 1px solid;
     font-size: 1.3em;
     
 }
+
 h2 {
     font-weight: bold;
     font-size: 14px;
+}
+
+section h1, h2 {
+    margin: 5px;
+}
+
+section p{
+    margin: 5px;
+
 }
 
 h3 {
@@ -181,11 +191,8 @@ h5 {
 .spotlights1 p  {
     text-align: center;
     color: #005C53;
-    margin: 0;
-    
+    margin: 0;    
 }
-
-
 
 footer {
     display: grid;
@@ -197,13 +204,13 @@ footer {
 footer img {
     margin-left: 50px;
     margin-top: 10px;
-    width: 140px;
-    height: 140px;
+    width: 100px;
+    height: 100px;
 }
 
 .logo {
     grid-column: 2/4;
-    margin: 50px 15px 0px 15px;
+    margin-top: 25px;
     
 }
 
@@ -211,8 +218,7 @@ footer img {
     grid-column: 1/4;
     grid-row: 2/3;
     text-align: center;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    
 }
 
 .resume {
@@ -220,23 +226,23 @@ footer img {
     grid-row: 3/4;    
     margin: 0 auto;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    grid-column: 1/4;
+    gap: 0rem;
+    align-items: center;
+    padding: 15px ;
 }
 
 footer p{    
     margin: 0;
     justify-content: center;
 }
+      
+    
+    
+    
 
-.resume {        
-    display: flex;
-    flex-direction: column;
-    grid-column: 1/4;
-    gap: 1rem;
-    align-items: center;
-    padding: 15px ;
-    
-    
-}
 
 
 
