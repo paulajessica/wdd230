@@ -121,10 +121,15 @@
 
     .gastronomy h1 {
         grid-column: 1/2;
-        grid-row: 1/1;
-        
+        grid-row: 1/1;        
 
     }
+
+    section ul li {
+        margin: 0;
+        list-style-type: none;
+    
+    }   
 
    img:hover {
         box-shadow: 0 0 50px #333;
@@ -155,7 +160,7 @@
 
     }
 
-    .gastronomy div {
+    .gastronomy ul {
         gap: 0;        
         grid-column: 2/4;
         grid-row: 3/4;
