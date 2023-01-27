@@ -27,10 +27,31 @@ if (numVisits !== 0) {
 numVisits++;
 // store the new number of visits value
 localStorage.setItem("visits-ls", numVisits);
-// show todays date.
-todayDisplay.textContent = Date.now();
+
 
 // You can view the localStorage data using the Applications panel in the browsers's DevTools.
 
+const rating = document.getElementById("rating");
+const rangevalue = document.getElementById("r");
+
+function displayRatingValue() {
+    rating.innerHTML = rangevalue.value;
+}
+
+rangevalue.addEventListener('change', displayRatingValue);
+rangevalue.addEventListener('input', displayRatingValue);
+
+
+const userName = document.getElementById("username");
+const userNameRepeat = document.getElementById("repeateusername");
+const submitButton = document.getElementById("submitBtn");
+
+submitButton.addEventListener("click", (e) => {
+    e.preventDefault();
+    if (userName.value != userNameRepeat.value) {
+        userName.setCustomValidity("Usernames do not match");
+        userName.reportValidity();
+    }
+});
 
 

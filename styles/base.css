@@ -1,15 +1,26 @@
+:root {
+    /*palette */
+    --color-one: #4589a5;
+    --color-two: #ffffff;
+    --shadow: #6f7364;   
+    --background-color-one: #D6D58E;
+    --background-color-two: #000000;
+    --color-link-one: #0000ff;
+    --color-link-two: #a72f20;   
+
+}
 
 body {
     font-family: 'Roboto', sans-serif;
 }
 
 .header {
-    background-color: #4589a5;    
+    background-color: var(--color-one); 
     display: grid;
     grid-template-columns: auto 1fr;
     font-size: 1.2em;
     height: 120px;
-    color: #ffffff;   
+    color: var(--color-two);   
 }
 
 div h1{
@@ -19,7 +30,7 @@ div h1{
 }
 
 div img {
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px var(--shadow);
     margin: 5px 5px 5px 5px;   
     
 }
@@ -37,7 +48,7 @@ div img {
 	padding: 0.75rem;
 	text-align: left;
 	text-decoration: none;
-	color: white;
+	color: var(--color-two);
 	font-weight: 700;
 	transition: 0.5s;
 	font-size: clamp(1rem, 2vmin, 1.5rem);
@@ -47,12 +58,12 @@ div img {
 #menu::before {
 	content: "≡";
 	font-size: 1.5rem;
-    color: #ffffff;
+    color: var(--color-two);
 }
 
 .navigation a:hover, navigation a:active {
-	color: white;
-	background-color: black;
+	color: var(--color-two);
+	background-color: var(--background-color-two);
 }
 
 .responsive li {
@@ -65,7 +76,7 @@ div img {
 }
 
 nav ul{
-    background-color: #000000;
+    background-color: var(--background-color-two);
     display: flex;
     flex-direction: column;    
     padding: 0.5rem;
@@ -79,7 +90,7 @@ nav ul li {
 }
 
 nav ul li a{
-    color: #ffffff;
+    color: var(--color-two);
 } 
 
 main h2 {    
@@ -106,7 +117,7 @@ h2, section {
 }
 
 .cardactivities, .cardproject, .cardinformation {
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px var(--shadow);
     border-radius: 10px;
     
 }
@@ -117,7 +128,7 @@ section div {
 }
 
 section h3 {
-    background-color: #4589a5;
+    background-color:var(--color-one);
     margin: 0;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -127,6 +138,21 @@ section h3 {
 section ul {  
   list-style-type: none;
   
+  
+}
+
+section a:link {
+    color: var(--color-link-one);
+}
+
+section a:visited {
+    color: var(--color-link-one);
+
+}
+
+section a:hover {
+    color: var(--color-link-two);
+
 }
 
 section p {    
@@ -134,13 +160,13 @@ section p {
 }
 
 footer div{
-    background-color: #4589a5;    
+    background-color: var(--color-one);    
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;    
-    padding: 1rem;
-    color: #ffffff; 
+    
+    color: var(--color-two); 
      
 }
 
@@ -158,14 +184,14 @@ footer div h3 {
 }
 
 footer h4{
-    background-color: #4589a5;    
+    background-color: var(--color-one);    
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;   
     padding-bottom: 1rem;
     font-size: 12px;
-    color: #ffffff;    
+    color: var(--color-two);    
     margin: 0;   
 }
 
@@ -181,12 +207,78 @@ footer h4{
 	top: 200px;
 	left: 10px;
     background: radial-gradient(#fff, #bcd6e1);
-    border: 1px solid #4589a5;
+    border: 1px solid var(--color-one);
     padding: 0.75rem;
-    box-shadow: 0 0 3rem #fff;
+    box-shadow: 0 0 3rem var(--color-two);
     opacity: 0.75;
 	
 }
+
+form {    
+    padding: 0.5rem;
+    width: 65%;
+    margin: 0 auto; 
+}
+
+
+
+label {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+    padding: 5px;
+    
+}
+
+#label {
+    display: grid;  
+    background-color: var(--color-two);
+    color: var(--background-color-two);
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+    padding-right: 10px;    
+}
+
+#label > label {
+    display: block;   
+}
+
+#r {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    width: 63%;
+    
+    
+}
+.rangecontainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;        
+    background-color: var(--color-two);       
+    
+}
+
+.ratinglabels {
+    display: flex;
+    flex-direction: row;
+    font-size: 0.7rem;
+    width: 90%;
+    padding: 0;
+    background-color: var(--color-two);
+    color: black;
+    
+}
+
+input {
+    grid-column: 2/3;
+}
+
+.ratevalue {
+    margin: 0;
+    flex: 0.05 auto;
+    text-align: center;
+}
+
 
 
 
