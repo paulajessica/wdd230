@@ -6,25 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Paula Jessica Ferreira Lucas da Silva">
     <meta name="description" content="WDD 230 - Paula Silva - Chamber Comerce Project">
-    <link rel="stylesheet" href="styles/basediscovery.css">
-    <link rel="stylesheet" href="styles/largediscorey.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
     <title>Fortaleza Chamber of Comerce</title>
 </head>
 <body>
     <nav>
         <div>
-            <img src="images/chambercomerce.png" width = 70 height = 70 loading="lazy"  alt="Chamber Comerce Logo">
+            <img class="logonav" src="images/chambercomerce.png" width = 70 height = 70  alt="">
         </div>                        
         <ul class="navigation">                                   
             <li><a id="menu" href="#"></a></li>
-            <li><a href="index.html">Home</a></li>               
+            <li><a href="index.html">Home</a></li>                 
             <li><a href="discover.html">Discover</a></li>
             <li><a href="#">Directory</a></li>
-            <li><a href="#">Join</a></li>                                
+            <li><a href="join.html">Join</a></li>                                
         </ul>
     </nav> 
     <header></header>
-    <main>
+    
+    <main class="discovermain">
         <section class="city">
             <img src="images/fortalezacity4.webp" width="300" height="350"  loading="lazy" alt="Fortaleza City Picture">
             <h1>Fortaleza City</h1>
@@ -51,13 +52,13 @@
         <h3>Culture and Events</h3>
         <div >
             <section class="culture">
-                <img  src="images/casa-de-jose-de-alencar-3.webp" width="200" height="250" loading="lazy"  alt="Jose Alencar House Picture">
+                <img id="alencarhouse" src="images/casa-de-jose-de-alencar-3.webp" width="200" height="250" loading="lazy"  alt="Jose Alencar House Picture">
                 <h1>Culture</h1>
                 <h2>The Casa de Jose Alencar is one of the Brazilian museums recognised as dealing with Brazilian literature.</h2>                      
                 <p>Among the theaters, the largest and most popular are Theatro José de Alencar, São José Theater, São Luiz Cinema Theater, and Teatro RioMarand Teatro Via Sul. The Ceará Museum houses numerous artifacts, including pieces of paleontology and furniture. The Dragão do Mar Center of Art and Culture is the main cultural centre, and includes the Ceará Museum of Culture, the Museum of Contemporary Art of Ceará, theaters, a planetarium, cinemas, shops and spaces for public presentations, as well as housing the Public Library Governador Menezes Pimentel, Oporto Iracema of the Arts and the School of Arts and Crafts Thomaz Pompeu Sobrinho.</p>            
             </section>
             <section class="gastronomy">
-                <img  src="images/bar-e-restaurante-dom.webp" width="200" height="250" loading="lazy"  alt="Food Fortaleza Picture">
+                <img  id="food" src="images/bar-e-restaurante-dom.webp" width="200" height="250" loading="lazy"  alt="Food Fortaleza Picture">
                 <h1>Gastronomy</h1>
                 <h2>Fortaleza have the best dishes in the region!</h2>                      
                 <p>One of the best things about a trip is discovering the delights of the local cuisine. There are several amazing dishes and seasonings for you to taste and fall in love with! Therefore, we have listed some famous recipes that are unmissable. Fortaleza is one of the most loved destinations by tourists, whether because of the beautiful beaches, the charming city or the mouth-watering cuisine. Whatever the reason, here you will find the best tips for your stay in the capital of Ceará to be very tasty. The main dishes are:</p>
@@ -76,10 +77,9 @@
             <h1>Nubmer of Visits</h1>
             <p><span class="label">Visit Count: </span><span class="visits"></span></p>           
         </section>
-
     </main>
     <footer>
-        <img src="images/chambercomerce.png" loading="lazy" alt="Chamber Comerce Logo">
+        <img src="images/chambercomerce.png" alt="">
         <div class="logo">                          
             <p>Fortaleza Chamber of Comerce</p>
             <p>10 Rue De La Paix</p>

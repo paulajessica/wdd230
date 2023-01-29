@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Paula Jessica Ferreira Lucas da Silva">
+    <meta name="description" content="WDD 230 - Paula Silva - Chamber Comerce Project">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <title>Fortaleza Chamber of Comerce</title>
+</head>
+<body>
+    <nav>
+        <div>
+            <img class="logonav" src="images/chambercomerce.png" width = 70 height = 70  alt="">
+        </div>                        
+        <ul class="navigation">                                   
+            <li><a id="menu" href="#"></a></li>
+            <li><a href="index.html">Home</a></li>                 
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="join.html">Join</a></li>                                
+        </ul>
+    </nav> 
+    <header></header>
+    <main class="joinmain">
+        <form action="thankyou.html" method="get">
+            <fieldset>
+                <LEgend>Personal Information</LEgend>                
+                <label>First name* <input type="text" name="firstname" required></label>
+                <label>Last name* <input type="text" name="lastname" required></label>
+                <label>Title <input type="text" name="title" pattern="[a-zA-Z- ]{7,}"></label>
+                <label>Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label>Phone Number* <input type="tel" name="phone" placeholder="123456789" required></label>
+            </fieldset>
+            <fieldset>
+                <LEgend>Business Information</LEgend>
+                <label >Business Name*  <input class="business" type="text" name="bname" size="75" required></label>            
+                <label>Membership Level
+                    <select name="subject" >
+                        <option value="">Please Select &#9662;</option>
+                        <option value="nonprofit">NP Membership is for non profit organizations and there is no fee.</option>
+                        <option value="bronze">Bronze Membership</option>
+                        <option value="silver">Silver Membership</option>
+                        <option value="gold">Gold Membership</option>                        
+                    </select>
+                </label>
+                <label class="box">Business Description<textarea rows="10" cols="70" maxlength="1000"></textarea></label>
+            </fieldset>
+            <input type="hidden" id="datetime" name="datetime">            
+            <input type="submit" value="Request Membership" class="submitBtn">
+        </form>
+        <section class="nonprofit">
+            <h1>Cust of and benefits of a NP Membership</h1>
+            <h2>Monthly Signature $35,00</h2>                      
+            <p>Networking Opportunities</p>
+            <p>Streamlined Marketing</p>            
+        </section>
+        <section class="benefitbronze">
+            <h1>Cust of and benefits of a Bronze Membership Benefits</h1>
+            <h2>Monthly Signature $55,00</h2>
+            <p>Networking Opportunities</p>
+            <p>Streamlined Marketing</p>                      
+            <p>Resources for Businesses</p>            
+        </section>
+        <section class="benefitsilver">
+            <h1>Cust of and benefits of a Silver Membership Benefits</h1>
+            <h2>Monthly Signature $65,00</h2>                      
+            <p>Networking Opportunities</p>
+            <p>Powerful Marketing</p>                      
+            <p>Resources for Businesses</p>            
+        </section>
+        <section class="benefitgold">
+            <h1>Cust of and benefits of a Gold Membership Benefits</h1>
+            <h2>Monthly Signature $75,00</h2>                      
+            <p>Networking Opportunities</p>
+            <p>Powerful Marketing</p>                      
+            <p>Resources for Businesses</p>
+            <p>Services for Businesses</p>
+            <p>Education and Training</p>            
+        </section>
+    </main>
+    <footer>
+        <img src="images/chambercomerce.png" alt="">
+        <div class="logo">                          
+            <p>Fortaleza Chamber of Comerce</p>
+            <p>10 Rue De La Paix</p>
+            <p>Timbuku, Mali 999</p>
+        </div>
+        <div class="contact">                
+            <p>contactus@fortalezacc.com.br</p>
+            <p>85977775555</p>
+            <p>Local Map</p>
+        </div>            
+        <div class="resume">
+            <p id="year"></p>
+            <p>Fortaleza Chamber Comerce</p>
+            <p>Paula Silva</p>   
+            <p>WDD230 Project</p>
+            <p id="update"></p>
+        </div>
+    </footer>
+    <script src="scripts/chamber.js"></script>   
+</body>
+</html>

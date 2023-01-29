@@ -19,6 +19,7 @@
             <nav>
                 <ul class="navigation">                    
                     <li><a id="menu" href="#"></a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="https://www.linkedin.com/in/paula-jessica-lucas/">LinkedIn</a></li>
                     <li><a href="https://www.byui.edu/">BYU-Idaho </a></li>
                 </ul>
@@ -29,9 +30,7 @@
             <div class="header">                
                 <img src="images/20201027_123634.webp" loading="lazy" width = 100 height = 100 alt="Paula's Picture">                
                 <h1>Paula Silva</h1>                                
-            </div>
-            
-            
+            </div> 
         </header>
                  
         <main >
@@ -82,13 +81,13 @@
            
         </main>        
         <footer>
-            <form>
+            <form method="get" action="thanks.html">
                 <fieldset>
                     <legend></legend>
-                    <label>Full Name* <input type="text" name="fname"></label>
-                    <label>Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
+                    <label>Full Name* <input type="text" name="fname" id="fname" required></label>
+                    <label>Email <input type="email" name="femail" placeholder="someone@gmail.com"></label>
                     <div id="label">
-                        <label  for="r">Rating [ <span id="rating"></span> ]:</label>
+                        <label for="r">Rating [ <span id="frating"></span> ]*:</label>
                         <div class="rangecontainer">
                             <input type="range" name="page" min="1" max="10" id="r" name="r" list="ten" required>
                             <div class="ratinglabels">
@@ -117,12 +116,10 @@
                         <option label="9">9</option>
                         <option label="10">10</option>
                     </datalist>
-                    <label>Username* <input type="username" placeholder="Enter Username" name="uname" required></label>
-                    <label>Repeat Username*<input type="repeateusername" placeholder="Enter Username" name="uname" pattern="(?=.*[$*&@#])[0-9a-zA-Z$*&@#]{5,12}" required></label>
-                    <input type="submit" value="Enter" class="submitBtn">
+                    <label>Username* <input type="password" placeholder="Enter Username" name="fusername" required></label>
+                    <label>Repeat Username*<input type="password" placeholder="Enter Username" name="frepeateusername" pattern="(?=.*[$*&@#])[0-9a-zA-Z$*&@#]{5,12}" required></label>
+                    <input type="submit" value="Enter" class="submitBtn" >
                 </fieldset>
-                
-
             </form>
             <div>
                 <h1 id="year"></h1>
@@ -136,5 +133,6 @@
         </footer>
         <script src="scripts/getDate.js"></script>
         <script src="scripts/getDark.js"></script>
+        
     </body>
     </html>

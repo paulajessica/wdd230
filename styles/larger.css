@@ -21,8 +21,11 @@
         grid-row: 2/3;
     }
 
-    #menu::before {
-        content: "≡";
+    .navigation li:first-child {
+		display: none;
+	}
+
+    #menu::before {        
         font-size: 2rem;
         color: var(--color-two);
     }
@@ -201,6 +204,10 @@
     fieldset {
         display: flex;
         flex-direction: column;
+    }
+
+    #tname {
+        color: black;        
     }
     
     

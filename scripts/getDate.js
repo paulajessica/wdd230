@@ -1,14 +1,3 @@
-const currentDate = new Date();
-document.querySelector('#year').textContent = "©" + currentDate.getFullYear();
-
-document.querySelector('#update').textContent = currentDate;
-
-const mainnav = document.querySelector('.navigation')
-const hambutton = document.querySelector('#menu');
-
-
-hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
-
 // initialize display elements
 const todayDisplay = document.querySelector(".today");
 const visitsDisplay = document.querySelector(".visits");
@@ -28,30 +17,49 @@ numVisits++;
 // store the new number of visits value
 localStorage.setItem("visits-ls", numVisits);
 
+const currentDate = new Date();
+document.querySelector("#year").textContent = "©" + currentDate.getFullYear();
+document.querySelector("#update").textContent = currentDate;
 
-// You can view the localStorage data using the Applications panel in the browsers's DevTools.
 
-const rating = document.getElementById("rating");
+const mainnav = document.querySelector(".navigation")
+const hambutton = document.querySelector("#menu");
+
+hambutton.addEventListener("click", () => {mainnav.classList.toggle("responsive")}, false);
+
+
+const rating = document.getElementById("frating");
 const rangevalue = document.getElementById("r");
 
 function displayRatingValue() {
     rating.innerHTML = rangevalue.value;
-}
+};
 
-rangevalue.addEventListener('change', displayRatingValue);
-rangevalue.addEventListener('input', displayRatingValue);
+rangevalue.addEventListener("change", displayRatingValue);
+rangevalue.addEventListener("input", displayRatingValue);
+
+const submitButton = document.getElementsByClassName("submitBtn");
 
 
-const userName = document.getElementById("username");
-const userNameRepeat = document.getElementById("repeateusername");
-const submitButton = document.getElementById("submitBtn");
+var fname = "";
+function displayTable() {
+    const fname = localStorage.getItem("fname");
+    document.querySelector("#tname").innerHTML = fname;
+	localStorage.setItem("#tname",fname);
+    
+};
+
+submitButton.addEventListener("click",displayTable);
+
+const userName = document.getElementsByName("username");
+const userNameRepeat = document.getElementsByName("repeateusername");
+
 
 submitButton.addEventListener("click", (e) => {
     e.preventDefault();
     if (userName.value != userNameRepeat.value) {
         userName.setCustomValidity("Usernames do not match");
-        userName.reportValidity();
+        userName.reportValidity();       
+        
     }
 });
-
-
