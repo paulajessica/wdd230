@@ -1,0 +1,28 @@
+{
+    
+    "The family name": "Smith",
+    "The date the family moved into the ward": 20210115,
+    "Number of people in the family (number of records)":3,
+    "Visited by bishopric?": true,
+    "Individual family members":[
+        {
+            "Name": "Mary Smith",
+            "Gender":"female",
+            "Birthdate": 19850513
+        },
+
+        {
+            "Name": "Jonh Smith",
+            "Gender":"male",
+            "Birthdate": 198101205
+        },
+        {
+            "Name": "Mathew Smith",
+            "Gender":"male",
+            "Birthdate": 20141027
+        }
+    ]
+    
+    
+}
+

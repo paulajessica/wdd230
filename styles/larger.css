@@ -209,6 +209,20 @@
     #tname {
         color: black;        
     }
+
+    .cardinformation {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        
+    }
+
+    #weather-icon, figcaption {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
     
     
 }
