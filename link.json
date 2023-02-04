@@ -1,0 +1,86 @@
+
+{
+    "Week01":
+    [
+        {
+            "title": "Grail | Media Query",
+            "path": "week01/media-query.html"
+        }
+    ],       
+
+    "Week02":
+    [
+        {
+            "title":"Design Activity",
+            "path":"week02/design.html"                
+        },
+        {
+            "title":"URL CodePen",
+            "path":"https://codepen.io/paulajessica/pen/ExpmMRp"
+            
+        },
+        {
+            "title":"DOM Manipulation",
+            "path":"week02/bom.html"
+            
+        }
+    ],
+    "Week03":
+    [
+        {
+            "title":"WebP Image File Format",
+            "path":"week03/images/landscape..webp.webp"
+        },
+        {
+            "title":"Native Lazy Loading",
+            "path":"week03/lazyload.html"
+        },
+        {
+            "title":"Responsive Images - Srcset",
+            "path":"https://codepen.io/paulajessica/pen/jOpawPX"
+        },
+        {
+            "title":"Web Storage API - localStorage",
+            "path":"week03/bom.html"
+        }
+    ],
+    "Week04":
+    [
+        {
+            "title":"CSS Psuedo-classes",
+            "path":"https://codepen.io/paulajessica/pen/oNMqaOm"
+        },
+        {
+            "title":"CSS Combinators",
+            "path":"images/exerciseweek04.png"
+        },
+        {
+            "title":"HTML Table",
+            "path":"week04/tablebuild.html"
+        },
+        {
+            "title":"HTML Forms",
+            "path":"week04/form-start/index.html"
+        }
+    ],
+    "Week05":
+    [
+        {
+            "title":"Pseudo-elements",
+            "path":"https://codepen.io/paulajessica/pen/qByQdEG"
+        },
+        {
+            "title":"Working with JSON data",
+            "path":"https://codepen.io/paulajessica/pen/qByQdEG"
+        },
+        {
+            "title":"The Fetch API",
+            "path":"week05/prophets.html"
+        },
+        {
+            "title":"Consuming a Weather API ",
+            "path":"week05/weather.html"
+        }
+    ]
+
+}

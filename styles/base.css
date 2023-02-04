@@ -61,7 +61,9 @@ div img {
     color: var(--color-two);
 }
 
-.navigation a:hover, navigation a:active {
+
+
+.navigation a:hover, .navigation a:active {
 	color: var(--color-two);
 	background-color: var(--background-color-two);
 }
@@ -121,6 +123,22 @@ h2, section {
     border-radius: 10px;
     
 }
+
+.cardactivities li {
+    margin: 15px 15px 15px 20px;
+    
+}
+
+.cardactivities li a{
+    color: var(--color-link-one);       
+
+}
+
+.cardactivities li a:active{
+    color:var(--color-link-one);       
+
+}
+
 section div {
     padding-left: 2.5rem;
     padding-top: 1rem;

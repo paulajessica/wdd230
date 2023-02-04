@@ -73,6 +73,22 @@
         grid-column: 1/2;
         grid-row: 3/5;
         
+        
+    }
+
+    .cardactivities li {
+        margin: 15px 15px 15px 20px;
+        
+    }
+
+    .cardactivities li a{
+        color: var(--color-link-one);       
+    
+    }
+    
+    .cardactivities li a:active{
+        color:var(--color-link-one);       
+    
     }
 
     .cardproject {
@@ -116,13 +132,13 @@
     .herolabel {
         position: absolute;
         top: 300px;
-        left: 500px;
+        left: 250px;
         background: radial-gradient(#fff, #bcd6e1);
         border: 1px solid var(--color-one);
         padding: 0.5rem;
         box-shadow: 0 0 3rem var(--color-two);
         opacity: 0.75;
-        /* Buenas */
+        
     }
     
     .herolabel p {
