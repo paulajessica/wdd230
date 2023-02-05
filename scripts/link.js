@@ -2,7 +2,7 @@
 async function getData() {
     const response = await fetch('./link.json');
     const data = await response.json();
-    //console.log({ data });
+    console.log({ data });
     //displayData(data[week]);
     const section = document.querySelector(".cardactivities");
     for (let week in data){
@@ -20,5 +20,7 @@ async function getData() {
         section.appendChild(li);
         }
 }
+
+getData();
 
 
