@@ -374,6 +374,51 @@ textarea {
     
 }
 
+#cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#cards img {
+    margin-left: 15px;
+}
+
+.maindirecory {    
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.list section {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0.25rem;
+}
+
+.list section > * {
+    margin: 0 1rem;
+}
+
+.list section img {
+    display: none;
+}
+
+.list section h3 {
+    font-size: 1rem;
+    
+}
+
+.list section:nth-child(even) {
+    background-color: #acb09f;
+}
+
     
     
 

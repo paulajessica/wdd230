@@ -19,51 +19,21 @@
             <li><a id="menu" href="#"></a></li>
             <li><a href="index.html">Home</a></li>                 
             <li><a href="discover.html">Discover</a></li>
-            <li><a href="#">Directory</a></li>
+            <li><a href="directory.html">Directory</a></li>
             <li><a href="join.html">Join</a></li>                                
         </ul>
     </nav> 
     <header></header>
-    <main class="main">
-        <img src="images/fortalezacity.webp" alt="">
-        <section class="event">
-            <h1>Events</h1>
-            <h2>Cultural Market Inaugration</h2>            
-            <p>Join us for this important moment to our culture</p>
-            <p>Town, Monday at 7p.m.</p>
-        </section>
-        <section class="weather">
-            <h1>Weather</h1>
-                <ul>
-                    <li>Time: <a href=""></a></li>
-                    <li>Humidity: <a href=""></a></li>
-                    <li>Wild Child: <a href=""></a></li>
-                </ul> 
-        </section>
-        <h3>Member Spotlights</h3>
-        <div>                  
-            <section class="spotlights1">
-                <h4>Fortaleza Town Hall</h4>
-                <h5>"Making Fortaleza work"</h5>
-                <p>contactus@fortalezatownhall.com.br</p>
-                <p>85899995512</p>
-                <p>http://fortalezatownhall.com.br</p>
-            </section>
-            <section class="spotlights1">
-                <h4>Fortaleza Town Hall</h4>
-                <h5>"Making Fortaleza work"</h5>
-                <p>contactus@fortalezatownhall.com.br</p>
-                <p>85899995512</p>
-                <p>http://fortalezatownhall.com.br</p>
-            </section>
-            <section class="spotlights1">
-                <h4>Fortaleza Town Hall</h4>
-                <h5>"Making Fortaleza work"</h5>
-                <p>contactus@fortalezatownhall.com.br</p>
-                <p>85899995512</p>
-                <p>http://fortalezatownhall.com.br</p>
-            </section>
-        </div>
+    <main class="maindirecory">
+        <div class="menu">
+            <button id="grid">⏹️Grid</button>
+		    <button id="list">📄List</button>
+	    </div>
+        <hr>
+	    <article class="grid">            
+            <section id="cards"></section>
+        </article>
+        
     </main>
     <footer>
         <img src="images/chambercomerce.webp" alt="">
@@ -78,6 +48,7 @@
             <p>Local Map</p>
         </div>            
         <div class="resume">
+            <p id="year"></p>
             <p>Fortaleza Chamber Comerce</p>
             <p>Paula Silva</p>   
             <p>WDD230 Project</p>
@@ -85,6 +56,8 @@
         </div>
     </footer>
     <script src="scripts/chamber.js"></script>
-    <script src="scripts/jsonfile.js"></script>      
+    <script src="scripts/jsonfile.js"></script>
+    <script src="scripts/members.js"></script>
+       
 </body>
 </html>

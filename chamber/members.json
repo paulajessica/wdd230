@@ -1,92 +1,74 @@
 {
-    "company01":
+    "companies":
     [
         {
             "name":"Cool Company",
             "addresses":"10732 Raul Ave, Fortaleza, CE, BR",
-            "phone numbers":"85-955115432",
-            "website URLs":"https://coolcompany.com.br",
-            "icon":"chamber/images/company..webp.webp",
-            "membership level":"Silver Level",
-            "acting area": "Eletronic Commerce"
+            "phonenumber":"85-955115432",
+            "website":"https://coolcompany.com.br",
+            "icon":"images/company.webp",
+            "level":"Silver Level",
+            "area": "Eletronic Commerce"
 
-        }
-    ],
-    "company02":
-    [
+        },   
         {
             "name":"Frescato Company",
             "addresses":"10732 Paulo Street, Fortaleza, CE, BR",
-            "phone numbers":"85-984322511",
-            "website URLs":"https://frescato.com.br",
-            "icon":"chamber/images/frescato..webp.webp",
-            "membership level":"Silver Level",
-            "acting area": "Vegetable Commerce"
+            "phonenumber":"85-984322511",
+            "website":"https://frescato.com.br",
+            "icon":"images/frescato.webp",
+            "level":"Silver Level",
+            "area": "Vegetable Commerce"
 
-        }
-    ],
-    "company03":
-    [
+        },    
         {
             "name":"Img Company",
             "addresses":"10732 Ricardo Street, Fortaleza, CE, BR",
-            "phone numbers":"85-9251158",
-            "website URLs":"https://img.com.br",
-            "icon":"chamber/images/img..webp.webp",
-            "membership level":"Bronze Level",
-            "acting area": "Vegetable Commerce"
+            "phonenumber":"85-9251158",
+            "website":"https://img.com.br",
+            "icon":"images/img.webp",
+            "level":"Bronze Level",
+            "area": "Vegetable Commerce"
 
-        }
-    ],
-    "company04":
-    [
+        },
         {
             "name":"Odonto Company",
             "addresses":"10732 Francisco Ave, Fortaleza, CE, BR",
-            "phone numbers":"85-925118965",
-            "website URLs":"https://odontocompany.com.br",
-            "icon":"chamber/images/odonto..webp.webp",
-            "membership level":"Gold Level",
-            "acting area": "Medical Care"
+            "phonenumber":"85-925118965",
+            "website":"https://odontocompany.com.br",
+            "icon":"images/odonto.webp",
+            "level":"Gold Level",
+            "area": "Medical Care"
 
-        }
-    ],
-    "company05":
-    [
+        },    
         {
             "name":"Medical Company",
             "addresses":"10732 Jose Ave, Fortaleza, CE, BR",
-            "phone numbers":"85-989655574",
-            "website URLs":"https://medical.com.br",
-            "icon":"chamber/images/medical..webp.webp",
-            "membership level":"Gold Level",
-            "acting area": "Medical Care"
+            "phonenumber":"85-989655574",
+            "website":"https://medical.com.br",
+            "icon":"images/medical.webp",
+            "level":"Gold Level",
+            "area": "Medical Care"
 
-        }
-    ],
-    "company06":
-    [
+        },    
         {
             "name":"V4 Company",
             "addresses":"10732 Maria Street, Fortaleza, CE, BR",
-            "phone numbers":"85-955747896",
-            "website URLs":"https://v4.com.br",
-            "icon":"chamber/images/v4..webp.webp",
-            "membership level":"Bronze Level",
-            "acting area": "Security"
+            "phonenumber":"85-955747896",
+            "website":"https://v4.com.br",
+            "icon":"images/v4.webp",
+            "level":"Bronze Level",
+            "area": "Security"
 
-        }
-    ],
-    "company07":
-    [
+        },
         {
             "name":"Sat Company",
             "addresses":"10732 David Street, Fortaleza, CE, BR",
-            "phone numbers":"85-978968561",
-            "website URLs":"https://sat.com.br",
-            "icon":"chamber/images/sat..webp.webp",
-            "membership level":"Bronze Level",
-            "acting area": "Internet Provider"
+            "phonenumber":"85-978968561",
+            "website":"https://sat.com.br",
+            "icon":"images/sat.webp",
+            "level":"Bronze Level",
+            "area": "Internet Provider"
 
         }
     ]
