@@ -255,6 +255,7 @@ footer p{
 
 .discovermain img {
     border-radius: 25px;
+    width: 100%;
 }
 
 .climate div {
@@ -267,7 +268,7 @@ img:hover {
 
 }
 
-.visit h1, p {
+.count h1, p {
     font-size: 16px;
 
 }

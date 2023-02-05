@@ -41,15 +41,15 @@ rangevalue.addEventListener("input", displayRatingValue);
 const submitButton = document.getElementsByClassName("submitBtn");
 
 
-var fname = "";
-function displayTable() {
-    const fname = localStorage.getItem("fname");
-    document.querySelector("#tname").innerHTML = fname;
-	localStorage.setItem("#tname",fname);
+// var fname = "";
+// function displayTable() {
+//     const fname = localStorage.getItem("fname");
+//     document.querySelector("#tname").innerHTML = fname;
+// 	localStorage.setItem("#tname",fname);
     
-};
+// };
 
-submitButton.addEventListener("click",displayTable);
+// submitButton.addEventListener("click",displayTable);
 
 const userName = document.getElementsByName("username");
 const userNameRepeat = document.getElementsByName("repeateusername");

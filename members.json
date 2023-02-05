@@ -1,0 +1,93 @@
+{
+    "company01":
+    [
+        {
+            "name":"Cool Company",
+            "addresses":"10732 Raul Ave, Fortaleza, CE, BR",
+            "phone numbers":"85-955115432",
+            "website URLs":"https://coolcompany.com.br",
+            "icon":"chamber/images/company..webp.webp",
+            "membership level":"Silver Level",
+            "acting area": "Eletronic Commerce"
+
+        }
+    ],
+    "company02":
+    [
+        {
+            "name":"Frescato Company",
+            "addresses":"10732 Paulo Street, Fortaleza, CE, BR",
+            "phone numbers":"85-984322511",
+            "website URLs":"https://frescato.com.br",
+            "icon":"chamber/images/frescato..webp.webp",
+            "membership level":"Silver Level",
+            "acting area": "Vegetable Commerce"
+
+        }
+    ],
+    "company03":
+    [
+        {
+            "name":"Img Company",
+            "addresses":"10732 Ricardo Street, Fortaleza, CE, BR",
+            "phone numbers":"85-9251158",
+            "website URLs":"https://img.com.br",
+            "icon":"chamber/images/img..webp.webp",
+            "membership level":"Bronze Level",
+            "acting area": "Vegetable Commerce"
+
+        }
+    ],
+    "company04":
+    [
+        {
+            "name":"Odonto Company",
+            "addresses":"10732 Francisco Ave, Fortaleza, CE, BR",
+            "phone numbers":"85-925118965",
+            "website URLs":"https://odontocompany.com.br",
+            "icon":"chamber/images/odonto..webp.webp",
+            "membership level":"Gold Level",
+            "acting area": "Medical Care"
+
+        }
+    ],
+    "company05":
+    [
+        {
+            "name":"Medical Company",
+            "addresses":"10732 Jose Ave, Fortaleza, CE, BR",
+            "phone numbers":"85-989655574",
+            "website URLs":"https://medical.com.br",
+            "icon":"chamber/images/medical..webp.webp",
+            "membership level":"Gold Level",
+            "acting area": "Medical Care"
+
+        }
+    ],
+    "company06":
+    [
+        {
+            "name":"V4 Company",
+            "addresses":"10732 Maria Street, Fortaleza, CE, BR",
+            "phone numbers":"85-955747896",
+            "website URLs":"https://v4.com.br",
+            "icon":"chamber/images/v4..webp.webp",
+            "membership level":"Bronze Level",
+            "acting area": "Security"
+
+        }
+    ],
+    "company07":
+    [
+        {
+            "name":"Sat Company",
+            "addresses":"10732 David Street, Fortaleza, CE, BR",
+            "phone numbers":"85-978968561",
+            "website URLs":"https://sat.com.br",
+            "icon":"chamber/images/sat..webp.webp",
+            "membership level":"Bronze Level",
+            "acting area": "Internet Provider"
+
+        }
+    ]
+}
