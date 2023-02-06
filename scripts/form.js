@@ -1,26 +1,33 @@
+var form = document.forms["contact"];
+var table = document.getElementById("form");
 
-// var fname = "";
-// function displayTable() {
-//     const fname = localStorage.getItem("fname");
-//     document.querySelector("#tname").innerHTML = fname;
-// 	localStorage.setItem("#tname",fname);
+form.addEventListener("submit", function (event) {
+
+  if (
+    form.elements["fusername"].value != form.elements["frepeateusername"].value
+  ) {
+    alert("Usernames do not match");
+    event.preventDefault();
+  } else {
     
-// };
+    var name = form.elements["fname"].value;
+    var email = form.elements["femail"].value;
+    var rating = form.elements["r"].value;
+    var username = form.elements["fusername"].value;
 
-// submitButton.addEventListener("click",displayTable);
+    document.getElementById("tname").innerHTML = name;
+    document.getElementById("temail").innerHTML = email;
+    document.getElementById("trating").innerHTML = rating;
+    document.getElementById("tusername").innerHTML = username;    
 
-const userName = document.getElementsByName("username");
-const userNameRepeat = document.getElementsByName("repeateusername");
-
-
-submitButton.addEventListener("click", (e) => {
-    e.preventDefault();
-    if (userName.value != userNameRepeat.value) {
-        userName.setCustomValidity("Usernames do not match");
-        userName.reportValidity();       
-        
-    }
+  }
+  event.preventDefault();
 });
+
+
+
+
+
 
 
 

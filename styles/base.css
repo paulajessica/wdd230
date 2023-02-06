@@ -124,6 +124,8 @@ h2, section {
     
 }
 
+
+
 .cardactivities li {
     margin: 15px 15px 15px 20px;
     
@@ -232,12 +234,15 @@ footer h4{
 	
 }
 
-form {    
-    padding: 0.5rem;
-    width: 65%;
-    margin: 0 auto; 
+.map {
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
 }
 
+form {        
+    margin: 0 auto;
+}
 
 
 label {
@@ -248,60 +253,18 @@ label {
     
 }
 
-#label {
-    display: grid;  
-    background-color: var(--color-two);
-    color: var(--background-color-two);
-    grid-template-columns: 1fr 1fr;
-    padding: 0;
-    padding-right: 10px;    
-}
-
-#label > label {
-    display: block;   
-}
-
-#r {
-    margin-bottom: 0;
-    padding-bottom: 0;
-    width: 63%;
-    
-    
-}
-.rangecontainer {
+.rating {
     display: flex;
-    flex-direction: column;
-    width: 100%;        
-    background-color: var(--color-two);       
-    
+    flex-direction: row;
+    gap: 3rem;
 }
 
 .ratinglabels {
     display: flex;
     flex-direction: row;
-    font-size: 0.7rem;
-    width: 90%;
-    padding: 0;
-    background-color: var(--color-two);
-    color: black;
-    
-}
-
-input {
-    grid-column: 2/3;
-}
-
-.ratevalue {
-    margin: 0;
-    flex: 0.05 auto;
-    text-align: center;
-}
-
-.cardinformation {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    
+    justify-content: right;
+    margin-right: 100px;
+    gap: 0.1rem;
 }
 
 #weather-icon, figcaption {
@@ -309,6 +272,10 @@ input {
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
+}
+
+fieldset {
+    border-radius: 10px ;
 }
 
 

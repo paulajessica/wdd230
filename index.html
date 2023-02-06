@@ -33,7 +33,7 @@
             </div> 
         </header>
                  
-        <main >
+        <main>
             <picture>
                 <source media="(min-width: 960px)" srcset="images/fortalezatemplo.webp">
                 <source media="(min-width: 400px)" srcset="images/saltlaketemple.webp">
@@ -58,52 +58,50 @@
                 <figcaption></figcaption>
                 <p><span class="label">Visit Count: </span><span class="visits"></span></p>
             </section>
-            <div class="map">
+            <section class="map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.2858238458352!2d-38.4633536852937!3d-3.747801297273352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74647af2c6509%3A0x8eb022f9d7265fa5!2sTemplo%20de%20Fortaleza!5e0!3m2!1spt-BR!2sbr!4v1674173159137!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-           
+            </section>
+            <section class="contact">
+                <form method="get" action="thanks.html" name="form">
+                    <fieldset>
+                        <legend>Contact Form</legend>
+                        <label>Full Name* <input type="text" name="fname" required></label>
+                        <label>Email <input type="email" name="femail" placeholder="someone@gmail.com"></label>
+                        <div class="page">
+                            <label class="rating">Rating[ <span id="ratingValue">6</span> ]*: <input type="range" max="10" min="1" name="frating" step="1" list="ratingRange" oninput="document.getElementById('ratingValue').innerHTML = this.value"></label>
+                            <div class="ratinglabels">
+                                    <span>1</span>
+                                    <span>2</span>
+                                    <span>3</span>
+                                    <span>4</span>
+                                    <span>5</span>
+                                    <span>6</span>
+                                    <span>7</span>
+                                    <span>8</span>
+                                    <span>9</span>
+                                    <span>10</span>
+                            </div>
+                            <datalist id="ratingRange">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </datalist>
+                        </div>
+                        <label>Username* <input type="password" placeholder="Enter Username" name="fusername" pattern="(?=.*[$*&@#])[0-9a-zA-Z$*&@#]{5,12}" required></label>
+                        <label>Repeat Username*<input type="password" placeholder="Enter Username" name="frepeateusername" pattern="(?=.*[$*&@#])[0-9a-zA-Z$*&@#]{5,12}" required></label>
+                        <input type="submit" value="Send Data" class="submitBtn" >
+                    </fieldset>
+                </form>
+            </section>
         </main>        
         <footer>
-            <form method="get" action="thanks.html">
-                <fieldset>
-                    <legend></legend>
-                    <label>Full Name* <input type="text" name="fname" id="fname" required></label>
-                    <label>Email <input type="email" name="femail" placeholder="someone@gmail.com"></label>
-                    <div id="label">
-                        <label for="r">Rating [ <span id="frating"></span> ]*:</label>
-                        <div class="rangecontainer">
-                            <input type="range" min="1" max="10" id="r" name="r" list="ten" >
-                            <div class="ratinglabels">
-                                <span class="ratevalue">1</span>
-                                <span class="ratevalue">2</span>
-                                <span class="ratevalue">3</span>
-                                <span class="ratevalue">4</span>
-                                <span class="ratevalue">5</span>
-                                <span class="ratevalue">6</span>
-                                <span class="ratevalue">7</span>
-                                <span class="ratevalue">8</span>
-                                <span class="ratevalue">9</span>
-                                <span class="ratevalue">10</span>
-                            </div>
-                        </div>
-                    </div>
-                    <datalist id="ten">
-                        <option label="1">1</option>
-                        <option label="2">2</option>
-                        <option label="3">3</option>
-                        <option label="4">4</option>
-                        <option label="5">5</option>
-                        <option label="6">6</option>
-                        <option label="7">7</option>
-                        <option label="8">8</option>
-                        <option label="9">9</option>
-                        <option label="10">10</option>
-                    </datalist>
-                    <label>Username* <input type="password" placeholder="Enter Username" name="fusername" required></label>
-                    <label>Repeat Username*<input type="password" placeholder="Enter Username" name="frepeateusername" pattern="(?=.*[$*&@#])[0-9a-zA-Z$*&@#]{5,12}" required></label>
-                    <input type="submit" value="Enter" class="submitBtn" >
-                </fieldset>
-            </form>
             <div>
                 <h1 id="year"></h1>
                 <img src="images/take-off.png" loading="lazy" width="40" height="40" alt="rocket picture">
@@ -118,5 +116,6 @@
         <script src="scripts/getDark.js"></script>        
         <script src="scripts/weather.js"></script>
         <script src="scripts/link.js"></script>
+        <script src="scripts/form.js"></script>
     </body>
     </html>

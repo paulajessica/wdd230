@@ -1,6 +1,6 @@
 const modeButton = document.querySelector("#mode");
 const main = document.querySelector("main");
-const mainli = document.querySelector("section ul li");
+const mainli = document.querySelector("section");
 
 modeButton.addEventListener("click", () => {
 	if (modeButton.textContent.includes("☑️")) {

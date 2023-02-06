@@ -23,25 +23,41 @@
                     <li><a href="https://www.linkedin.com/in/paula-jessica-lucas/">LinkedIn</a></li>
                     <li><a href="https://www.byui.edu/">BYU-Idaho </a></li>
                 </ul>
-            </nav>
-            <div id="mode">
-                ☑️
-            </div> 
+            </nav>            
             <div class="header">                
                 <img src="images/20201027_123634.webp" loading="lazy" width = 100 height = 100 alt="Paula's Picture">                
                 <h1>Paula Silva</h1>                                
             </div> 
         </header>                 
-        <main>            
-            <table id="table">
+        <main class="mainform">
+            <table id="form">
+                <caption>Data Form</caption>
                 <tbody>
                     <tr>
-                        <td><span id="tname"></span></td>
-                    </tr>                    
+                        <th>Field</th>
+                        <th>Value</th>
+                    </tr>
+                    <tr>
+                        <th>Full Name</th>
+                        <th id="tname"></th>
+                    </tr>
+                    <tr>
+                        <th>Email</th>
+                        <th id="temail"></th>
+                    </tr>
+                    <tr id="ratingRow">
+                        <th>Pagin Rating</th>
+                        <th id="trating"></th>
+                    </tr>
+                    <tr>
+                        <th>Username</th>
+                        <th id="tusername"></th>
+                    </tr>
                 </tbody>
-            </table>
+            </table>  
         </main>        
-        <footer>            
+        <footer>
+            
             <div>
                 <h1 id="year"></h1>
                 <img src="images/take-off.png" loading="lazy" width="40" height="40" alt="rocket picture">
@@ -53,7 +69,6 @@
             
         </footer>
         <script src="scripts/getDate.js"></script>
-        <script src="scripts/getDark.js"></script>
-               
+        <script src="scripts/form.js"></script>
     </body>
-</html>
+    </html>
