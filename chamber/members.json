@@ -7,7 +7,7 @@
             "phonenumber":"85-955115432",
             "website":"https://coolcompany.com.br",
             "icon":"images/company.webp",
-            "level":"Silver Level",
+            "level":"Silver",
             "area": "Eletronic Commerce"
 
         },   
@@ -17,7 +17,7 @@
             "phonenumber":"85-984322511",
             "website":"https://frescato.com.br",
             "icon":"images/frescato.webp",
-            "level":"Silver Level",
+            "level":"Silver",
             "area": "Vegetable Commerce"
 
         },    
@@ -27,7 +27,7 @@
             "phonenumber":"85-9251158",
             "website":"https://img.com.br",
             "icon":"images/img.webp",
-            "level":"Bronze Level",
+            "level":"Silver",
             "area": "Vegetable Commerce"
 
         },
@@ -37,7 +37,7 @@
             "phonenumber":"85-925118965",
             "website":"https://odontocompany.com.br",
             "icon":"images/odonto.webp",
-            "level":"Gold Level",
+            "level":"Gold",
             "area": "Medical Care"
 
         },    
@@ -47,7 +47,7 @@
             "phonenumber":"85-989655574",
             "website":"https://medical.com.br",
             "icon":"images/medical.webp",
-            "level":"Gold Level",
+            "level":"Gold",
             "area": "Medical Care"
 
         },    
@@ -57,7 +57,7 @@
             "phonenumber":"85-955747896",
             "website":"https://v4.com.br",
             "icon":"images/v4.webp",
-            "level":"Bronze Level",
+            "level":"Bronze",
             "area": "Security"
 
         },
@@ -67,7 +67,7 @@
             "phonenumber":"85-978968561",
             "website":"https://sat.com.br",
             "icon":"images/sat.webp",
-            "level":"Bronze Level",
+            "level":"Silver",
             "area": "Internet Provider"
 
         }

@@ -20,49 +20,67 @@
             <li><a href="index.html">Home</a></li>                 
             <li><a href="discover.html">Discover</a></li>
             <li><a href="directory.html">Directory</a></li>
-            <li><a href="join.html">Join</a></li>                                
+            <li><a href=    "join.html">Join</a></li>                                
         </ul>
     </nav> 
     <header></header>
     <main class="main">
-        <img src="images/fortalezacity.webp" alt="">
-        <section class="event">
-            <h1>Events</h1>
-            <h2>Cultural Market Inaugration</h2>            
-            <p>Join us for this important moment to our culture</p>
-            <p>Town, Monday at 7p.m.</p>
+        <img id="mainImg" src="images/fortalezacity.webp" alt="">
+        <section class="eventOne">
+            <h1>Sana Fest</h1>
+            <h2>Ceara Event Center</h2>
+            <p>Monday at 7p.m.</p>
+        </section>
+        <section class="eventTwo">
+            <h1>Daniel Boaventura: Tour 2023</h1>
+            <h2>RioMar Theater</h2>
+            <p>Thurday at 6p.m.</p>
+        </section>
+        <section class="eventThree">
+            <h1>Automotive Mecanic Course</h1>
+            <h2>Fortaleza Town Hall</h2>
+            <p>Friday at 6p.m.</p>
         </section>
         <section class="weather">
             <h1>Weather</h1>
                 <ul>
-                    <li>Time: <a href=""></a></li>
-                    <li>Humidity: <a href=""></a></li>
-                    <li>Wild Child: <a href=""></a></li>
+                    <li id="current-temp"></a></li>
+                    <li><img id="weather-icon" src="" alt="" loading="lazy"></li>
+                    <li id="description"></a></li>                    
+                    
+                    <li id="dateOne"></a></li>
+                    <li><img id="iconOne" src="" alt="" loading="lazy"></li>
+                    <li id="tempOne"></a></li>                    
+                    
+                    <li id="dateTwo"></a></li>
+                    <li><img id="iconTwo" src="" alt="" loading="lazy"></li>
+                    <li id="tempTwo"></a></li>
+                    
+                    <li id="dateThree"></a></li>
+                    <li><img id="iconThree" src="" alt="" loading="lazy"></li>
+                    <li id="tempThree"></a></li>
+                    
+                    <li id="dateFour"></a></li>
+                    <li><img id="iconFour" src="" alt="" loading="lazy"></li>
+                    <li id="tempFour"></a></li>
+                    
                 </ul> 
         </section>
         <h3>Member Spotlights</h3>
         <div>                  
             <section class="spotlights1">
-                <h4>Fortaleza Town Hall</h4>
-                <h5>"Making Fortaleza work"</h5>
-                <p>contactus@fortalezatownhall.com.br</p>
-                <p>85899995512</p>
-                <p>http://fortalezatownhall.com.br</p>
+                <h4 id="nameOne"></h4>
+                <img id="imgOne" src=""alt="Picture" loading="lazy">
+                <p id="webOne"></p>
+                <p id="phoneOne"></p>                
             </section>
             <section class="spotlights1">
-                <h4>Fortaleza Town Hall</h4>
-                <h5>"Making Fortaleza work"</h5>
-                <p>contactus@fortalezatownhall.com.br</p>
-                <p>85899995512</p>
-                <p>http://fortalezatownhall.com.br</p>
+                <h4 id="nameTwo"></h4>
+                <img id="imgTwo" src=""alt="Picture" loading="lazy">
+                <p id="webTwo"></p>
+                <p id="phoneTwo"></p>                
             </section>
-            <section class="spotlights1">
-                <h4>Fortaleza Town Hall</h4>
-                <h5>"Making Fortaleza work"</h5>
-                <p>contactus@fortalezatownhall.com.br</p>
-                <p>85899995512</p>
-                <p>http://fortalezatownhall.com.br</p>
-            </section>
+            
         </div>
     </main>
     <footer>
@@ -85,6 +103,8 @@
             <p id="update"></p>
         </div>
     </footer>
-    <script src="scripts/chamber.js"></script>      
+    <script src="scripts/chamber.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/jsonfile.js"></script>
 </body>
 </html>

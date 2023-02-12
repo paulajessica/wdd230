@@ -66,7 +66,7 @@
 
     .main img {
         grid-column: 1/4;        
-        height: 465px;
+        
                
     }
 
@@ -82,10 +82,21 @@
         gap: 0;
     }
 
-    .event {
+    .eventOne {
         grid-column: 1/3;
-        grid-row: 2/3;
-        
+        grid-row: 2/3;       
+
+    }
+
+    .eventTwo {
+        grid-column: 1/3;
+        grid-row: 3/4;       
+
+    }
+
+    .eventThree {
+        grid-column: 1/3;
+        grid-row: 4/5;       
 
     }
 
@@ -96,7 +107,7 @@
 
     .weather {
         grid-column: 3/4;
-        grid-row: 2/3;
+        grid-row: 2/5;
     }
 
     section ul {
@@ -165,6 +176,7 @@
         border: 0;   
         box-shadow: 10px 10px 10px 10px #6f7364;
         width: 80%;
+        text-align: center;
     }
 
     .count {
@@ -373,6 +385,27 @@
     .list section:nth-child(even) {
         background-color: #acb09f;
     }
+
+    #weather-icon, #iconOne, #iconTwo, #iconThree, #iconFour {
+        width: 100%;
+        height: 85px;
+    }
+
+    .weather ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #imgOne, #imgTwo, #imgThree {
+        width: 70px;
+        height: 70px;
+        
+    }
+
+    #mainImg {
+        width: 100%;
+    }
+
     
 
 
