@@ -55,7 +55,7 @@ function displayTemp(main){
 
 function displayTemp(main){
     const temp = main.temp;         
-    currentTemp.innerHTML = `Time Today: ${temp}&deg;F`;
+    currentTemp.innerHTML = `Current Temp: ${temp}&deg;F`;
 
 };
 
@@ -88,32 +88,32 @@ async function apiFetchFore() {
        //for (let i in data.list){
 
        const dOne = data.list[9].dt_txt;
-       dateOne.innerHTML = `In: ${dOne}`;
+       dateOne.innerHTML = `${dOne}`;
        const iOne = data.list[9].weather[0].icon;
        iconOne.setAttribute('src', "http://openweathermap.org/img/w/" + iOne + ".png");           
        const tOne = data.list[9].main.temp;
-       tempOne.innerHTML = `Time: ${tOne}&deg;F`;
+       tempOne.innerHTML = `Temp: ${tOne}&deg;F`;
 
        const dTwo = data.list[17].dt_txt;
-       dateTwo.innerHTML = `In: ${dTwo}` ;
+       dateTwo.innerHTML = `${dTwo}` ;
        const iTwo = data.list[17].weather[0].icon;
        iconTwo.setAttribute('src', "http://openweathermap.org/img/w/" + iTwo + ".png");  
        const tTwo = data.list[17].main.temp;
-       tempTwo.innerHTML = `Time: ${tTwo}&deg;F`;
+       tempTwo.innerHTML = `Temp: ${tTwo}&deg;F`;
 
        const dThree = data.list[25].dt_txt;
-       dateThree.innerHTML = `In: ${dThree}` ;
+       dateThree.innerHTML = `${dThree}` ;
        const iThree = data.list[25].weather[0].icon;
        iconThree.setAttribute('src', "http://openweathermap.org/img/w/" + iThree + ".png"); 
        const tThree = data.list[25].main.temp;
-       tempThree.innerHTML = `Time: ${tThree}&deg;F`;
+       tempThree.innerHTML = `Temp: ${tThree}&deg;F`;
 
        const dFour = data.list[33].dt_txt;
-       dateFour.innerHTML = `In: ${dFour}`;
+       dateFour.innerHTML = `${dFour}`;
        const iFour = data.list[33].weather[0].icon;
        iconFour.setAttribute('src', "http://openweathermap.org/img/w/" + iFour + ".png");
        const tFour = data.list[33].main.temp;
-       tempFour.innerHTML = `Time: ${tFour}&deg;F`;
+       tempFour.innerHTML = `Temp: ${tFour}&deg;F`;
        
 };
 

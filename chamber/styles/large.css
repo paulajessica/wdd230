@@ -51,13 +51,15 @@
         position: absolute;	
         left: 0rem;
         padding-left: 1rem;
+       
+        
     }
 
     
     .main {
         display: grid;        
         grid-template-columns: 1fr 1fr 1fr;
-        max-width: 65%;
+        max-width: 85%;
         margin: 0 auto;        
         gap: 1rem;              
         padding-bottom: 15px;
@@ -79,7 +81,9 @@
     .main div {    
         grid-column: 1/4;
         display: flex;
+        flex-direction: row;
         gap: 0;
+        justify-content: center;
     }
 
     .eventOne {
@@ -100,14 +104,26 @@
 
     }
 
+    .eventOne p {        
+        color: #005C53;
+
+    }
+
+    .eventOne h2 {        
+        color: #042940;
+        font-size: 20px;
+
+    }
+
     section h2, p{
         margin: 10px;
+        
 
     }
 
     .weather {
         grid-column: 3/4;
-        grid-row: 2/5;
+        
     }
 
     section ul {
@@ -133,6 +149,7 @@
         margin: 0;        
         padding-left: 15rem;
         padding-top: 1rem;
+        
     }
 
     footer {
@@ -171,8 +188,13 @@
         margin: 0.5rem;
     }
 
-    .spotlights1 {
+    .spotlights1 h2 {
+        font-size: 20px;
+        color: #042940;
     
+    }
+
+    .spotlights1 {    
         border: 0;   
         box-shadow: 10px 10px 10px 10px #6f7364;
         width: 80%;
@@ -294,7 +316,9 @@
 
     .joinmain form {
         grid-column: 1/2;
-        grid-row: 1/6;       
+        grid-row: 1/6;
+        color: #005C53;
+        font-weight: bold;       
         
     }
 
@@ -304,6 +328,15 @@
         border-radius: 10px;       
 
     }
+
+    .joinmain h2, p {
+        color: #005C53;
+    }
+
+    .joinmain h1 {
+        color: #042940;
+    }
+
 
     legend {
         padding: 10px;
@@ -323,7 +356,7 @@
     .nonprofit {
         margin-top: 20px;
         grid-row: 1/2;
-        grid-column: 2/3;
+        grid-column: 2/5;
     }
 
     .benefitbronze {
@@ -351,11 +384,38 @@
         margin-left: 15px;
     }
 
+    #cards h2 {
+        font-size: 20px;
+        color: #042940;
+    }
+
     .maindirecory {
         width: 80%;
         margin: 0 auto;
         margin-top: 15px;
         margin-bottom: 15px;
+        
+    }
+
+    .discovermain h2 {
+        font-size: 18px;
+        color: #042940;
+        
+    }
+
+    .discovermain p {
+        color: #005C53;
+        
+    }
+
+    .gastronomy ul li {
+        color: #005C53;
+
+    }
+
+    .maindirecory section img {
+        border-radius: 50%;
+
     }
     .list {
         display: flex;
@@ -394,16 +454,59 @@
     .weather ul {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        
     }
 
-    #imgOne, #imgTwo, #imgThree {
+    .weather ul li {
+        color: #005C53;
+    }
+
+
+
+    .weather h2 {
+        grid-column: 1/4;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        color: #042940;
+        font-size: 18px;
+    }
+
+    .member img {
         width: 70px;
         height: 70px;
+        border-radius: 50%;
         
     }
 
     #mainImg {
         width: 100%;
+    }
+
+    .label {
+        position: relative;
+        bottom: 700px;
+        left: 500px;
+        width: 20%;
+        background: radial-gradient(#fff, #bcd6e1);        
+        padding: 1rem;        
+        opacity: 0.75;        
+        border-radius: 10px;
+        
+    }
+
+    .label li {
+        font-size: 25px;
+        font-weight: bold;
+        list-style-type: none;
+        
+
+    }
+
+    .label li a {
+        text-decoration: none;
+        color: #005C53;
+       
     }
 
     
